@@ -3,3 +3,5 @@ function sum(...numbers) {
     (numAcumlate, numCurrent) => numAcumlate + numCurrent, 0
   )
 }
+
+exports.sum = sum
